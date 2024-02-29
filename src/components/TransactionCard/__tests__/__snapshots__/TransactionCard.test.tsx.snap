@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionCard renders correctly 1`] = `
+<View
+  style={
+    {
+      "borderColor": "black",
+      "borderRadius": 5,
+      "borderWidth": 2,
+      "marginVertical": 10,
+      "padding": 5,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "marginBottom": 5,
+      }
+    }
+  >
+    Amount: 
+    testAmount
+  </Text>
+  <Text
+    style={
+      {
+        "marginBottom": 5,
+      }
+    }
+  >
+    Sender: 
+    testSender
+     
+  </Text>
+  <Text>
+    Receiver: 
+    testReceiver
+  </Text>
+</View>
+`;
